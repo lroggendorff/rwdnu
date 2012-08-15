@@ -4,16 +4,16 @@
 	<head>
 		<meta charset="utf-8">
 		
-		<title>reveal.js - The HTML Presentation Framework</title>
+		<title>RWDNU</title>
 
-		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
-		<meta name="author" content="Hakim El Hattab">
+		<meta name="description" content="A presentation about responsive web design using the reveal.js library by Hakim El Hattab (http://lab.hakim.se/reveal-js/)">
+		<meta name="author" content="Lance Roggendorff">
 
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 		
-		<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-		
+		<link href='http://fonts.googleapis.com/css?family=Neuton:400,800,400italic|Inconsolata|Oswald:700' rel='stylesheet' type='text/css'>
+
 		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/theme/default.css">
 
@@ -40,22 +40,21 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section>
-					<h1>Reveal.js</h1>
-					<h3>HTML Presentations Made Easy</h3>
+					<h1>Responsive Web Design
+						<br/>And You</h1>
 				</section>
 				
 				<section>
-					<h2>Heads Up</h2>
-					<p>
-						reveal.js is a framework for easily creating beautiful presentations using HTML. You'll need a browser with 
-						support for CSS 3D transforms to see it in its full glory.
+					<h2>How did we get here</h2>
+					<p class="fragment">
+						The Internet was for books.
 					</p>
-					<p>
-						<i><small>- <a href="http://hakim.se">Hakim El Hattab</a> / <a href="http://twitter.com/hakimel">@hakimel</a></small></i>
+					<p class="fragment">
+						HTML was for books.
 					</p>
 
 					<aside class="notes">
-						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you run the speaker notes server.
+						waaaaaassssssssuuuuuuppppp
 					</aside>
 				</section>
 				
@@ -296,7 +295,7 @@ function linkify( selector ) {
 				progress: true,
 				history: true,
 				
-				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/linear(2d)
+				transition: 'linear',
 
 				// Optional libraries used to extend on reveal.js
 				dependencies: [
