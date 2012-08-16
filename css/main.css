@@ -233,7 +233,7 @@ body {
 
 .reveal small {
 	font-size: 0.6em;
-	line-height: 1em;
+	line-height: 1;
 	vertical-align: top;
 }
 
